@@ -1,0 +1,27 @@
+
+/*
+ Wai Lwi Phyo
+CruzID: wlphyo
+pa2
+*/
+#include <stdio.h>
+#include <stdlib.h>
+//Structures
+// private EntryObj type
+typedef struct EntryObj{
+   int column;
+   double value;
+} EntryObj;
+
+typedef EntryObj* Entry;
+
+//constructor
+Matrix newMatrix(int n)
+{
+	if(n<1)
+	{
+		printf("Matrix cannot be created. N is less than 0.");
+		exit(1);
+	}
+
+}

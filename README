@@ -1,0 +1,28 @@
+//README
+//Wai Lwi Phyo
+//CRUZID: wlphyo
+//pa2
+//-------------------------------------------
+1.  Sparse.c
+	Get entries for two matricies from input text file into arrays. Then,
+	do matrix calculations and output results into text file.
+2.  List.c
+	List.c is a doubly linked list ADT that fits specifications to be used 
+	in our Matrix program
+3.  List.h
+	List.h contains List ADT headers. It is used to direct services to Matrix.c
+	from List.c
+4.	ListTest.c
+	ListTest.c is a test client for List ADT.
+5.	Matrix.h
+	Contains Matrix ADT headers. It is used to direct services to Sparse.c
+6.	Matrix.c
+	Contains functions to do Matrix Calculations.
+7.	MatrixTest.c
+	MatrixTest.c is a test client for Matrix.c
+8.	Makefile	
+	A file containing commands to update changed codes. 
+9.  README
+	README contains discriptions for pa2.
+
+	

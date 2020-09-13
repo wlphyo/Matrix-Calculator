@@ -1,0 +1,41 @@
+
+#include "Matrix.h"
+#include "List.h"
+typedef struct MatrixObj
+{
+	int size;
+	int NNZ;
+	List[] Matrix;
+	
+	typedef struct EntryObj
+	{
+		double value; //column
+		int column; //value
+
+	} EntryObj;
+} MatrixObj;
+Entry(int col,double val)
+{
+	column = col;
+	value = val;
+}
+
+Matrix newMatrix(int n)
+{
+	size = n;
+	NNZ = 0;
+	Matrix = malloc((n+1)sizeof(Matrix));
+	for(int i=0; i < n; i++)
+		Matrix[i] = newList();
+	return Matrix;
+}
+
+void freeMatrix(Matrix* pM)
+{
+	if(*pM != NULL)
+	{
+		free(*pM);
+		clear(*pM);
+		*pM = NULL;
+	}
+}
